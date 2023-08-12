@@ -1,0 +1,11 @@
+    
+
+    elif client_ == CLIENT_NAME:
+        print("asdflkadf")
+        try:
+            Clients.FILE_NAME.CLIENT.connect(Clients.FILE_NAME.CLIENT,tree)
+            return True
+        except:
+            tree.connectionFailed(Clients.FILE_NAME)
+            return False
+    
